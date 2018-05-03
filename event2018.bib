@@ -1,0 +1,146 @@
+@inproceedings{LiuEtal:2018:AAAI2018,
+ author = {Liu, Jian and Chen, Yubo and Liu, Kang and Zhao, Jun},
+ title = {Event Detection via Gated Multilingual Attention Mechanism},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {4865-4872},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16371},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {Identifying event instance in text plays a critical role in building NLP applications such as Information Extraction (IE) system. 
+              However, most existing methods for this task focus only on monolingual clues of a specific language and ignore the massive 
+              information provided by other languages. Data scarcity and monolingual ambiguity hinder the performance of these monolingual 
+              approaches. In this paper, we propose a novel multilingual approach---dubbed as Gated Multilingual Attention (GMLATT) 
+              framework---to address the two issues simultaneously. In specific, to alleviate data scarcity problem, we exploit the 
+              consistent information in multilingual data via context attention mechanism. Which takes advantage of the consistent 
+              evidence in multilingual data other than learning only from monolingual data. To deal with monolingual ambiguity problem, 
+              we propose gated cross-lingual attention to exploit the complement information conveyed by multilingual data, which is
+               helpful for the disambiguation. The cross-lingual attention gate serves as a sentinel modelling the confidence of the
+                clues provided by other languages and controls the information integration of various languages. We have conducted 
+                extensive experiments on the ACE 2005 benchmark. Experimental results show that our approach significantly outperforms
+                state-of-the-art methods.},
+ keywords = {event detection; attention mechanism; deep learning},
+}
+
+@inproceedings{NguyenAndGrishman:2018:AAAI2018,
+ author = {Nguyen, Thien Huu and Grishman, Ralph},
+ title = {Graph Convolutional Networks with Argument-Aware Pooling for Event Detection},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {5900-5907},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16329/16155},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {The current neural network models for event detection have only considered the sequential 
+ representation of sentences. Syntactic representations have not been explored in this area although 
+ they provide an effective mechanism to directly link words to their informative context for event 
+ detection in the sentences. In this work, we investigate a convolutional neural network based on 
+ dependency trees to perform event detection. We propose a novel pooling method that relies on entity 
+ mentions to aggregate the convolution vectors. The extensive experiments demonstrate the benefits of 
+ the dependency-based convolutional neural networks and the entity mention- based pooling method for 
+ event detection. We achieve the state-of-the-art performance on widely used datasets with both perfect 
+ and predicted entity mentions.},
+ keywords = {Event Detection; Information Extraction; Deep Learning; Graph Convolutional Neural Networks},
+}
+
+@inproceedings{DingAndRiloff:2018:AAAI2018,
+ author = {Ding, Haibo and Riloff Ellen},
+ title = {Weakly Supervised Induction of Affective Events by Optimizing Semantic Consistency},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {5763--5770},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17097/16138},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {To understand narrative text, we must comprehend how people are affected by the events that they experience. 
+ For example, readers understand that graduating from college is a positive event (achievement) but being fired from one’s 
+ job is a negative event (problem). NLP researchers have developed effective tools for recognizing explicit sentiments, 
+ but affective events are more difficult to recognize because the polarity is often implicit and can depend on both a
+  predicate and its arguments. Our research investigates the prevalence of affective events in a personal story corpus, 
+  and introduces a weakly supervised method for large scale induction of affec- tive events. We present an iterative learning 
+  framework that constructs a graph with nodes representing events and initial- izes their affective polarities with 
+  sentiment analysis tools as weak supervision. The events are then linked based on three types of semantic relations: 
+  (1) semantic similarity, (2) se- mantic opposition, and (3) shared components. The learning algorithm iteratively 
+  refines the polarity values by optimiz- ing semantic consistency across all events in the graph. Our model learns over 
+  100,000 affective events and identifies their polarities more accurately than other methods.
+},
+ keywords = {Natural Language Processing; Sentiment Analysis; Affective Events},
+}
+
+@inproceedings{LeeAmdGoldwasser:2018:AAAI2018,
+ author = {Lee, I-Ta and Goldwasser, Dan},
+ title = {FEEL: Featured Event Embedding Learning},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {4840--4847},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17439/16014},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {Statistical script learning is an effective way to acquire world knowledge which can be used for commonsense reasoning. 
+ Statistical script learning induces this knowledge by observing event sequences generated from texts. The learned model thus can 
+ predict subsequent events, given earlier events. Recent approaches rely on learning event embeddings which capture script knowledge. 
+ In this work, we suggest a general learning model–Featured Event Embedding Learning (FEEL)–for injecting event embeddings with fine
+  grained information. In addition to capturing the dependencies between subsequent events, our model can take into account higher 
+  level abstractions of the input event which help the model generalize better and account for the global context in which the event 
+  appears. We evaluated our model over three narrative cloze tasks, and showed that our model is competitive with the most recent 
+  state-of-the-art. We also show that our resulting embedding can be used as a strong representation for advanced semantic tasks such
+   as discourse parsing and sentence semantic relatedness.
+},
+ keywords = {Natural Language Processing; Event Embeddings; Common Sense Inference; Statistical Script Learning; Representation Learning},
+}
+
+@inproceedings{sha-Etal:2018:AAAI2018,
+ author = {Sha, Lei and Qian, Feng and Chang, Baobao and Sui, Zhifang},
+ title = {Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {5916-5923},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16222/16157},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {Event extraction plays an important role in natural language processing (NLP) applications 
+ including question answering and information retrieval. Traditional event extraction relies heavily on 
+ lexical and syntactic features, which require intensive human engineering and may not generalize to 
+ different datasets. Deep neural networks, on the other hand, are able to automatically learn underlying 
+ features, but existing networks do not make full use of syntactic relations. In this paper, we propose 
+ a novel dependency bridge recurrent neural network (dbRNN) for event extraction. We build our model upon 
+ a recurrent neural network, but enhance it with dependency bridges, which carry syntactically related 
+ information when modeling each word. We illustrates that simultaneously applying tree structure and 
+ sequence structure in RNN brings much better performance than only uses sequential RNN. In addition, 
+ we use a tensor layer to simultaneously capture the various types of latent interaction between candidate 
+ arguments as well as identify/classify all arguments of an event. Experiments show that our approach 
+ achieves competitive re- sults compared with previous work.},
+ keywords = {event; extraction; dependency bridge; tensor; joint},
+}
+
+
+
+@InProceedings{lin-Etal:2018:ACL2018,
+  author    = {Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le},
+  title     = {Nugget Proposal Networks for Chinese Event Detection},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  month     = {July},
+  year      = {2018},
+  address   = {Melbourne, Australia},
+  publisher = {Association for Computational Linguistics},
+}
+
+@InProceedings{lin-Etal:2018:ACL2018,
+  author    = {Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le},
+  title     = {Adaptive Scaling for Sparse Detection in Information Extraction},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  month     = {July},
+  year      = {2018},
+  address   = {Melbourne, Australia},
+  publisher = {Association for Computational Linguistics},
+}
