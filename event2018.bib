@@ -31,7 +31,7 @@
  series = {AAAI '2018},
  year = {2018},
  location = {New Orleans, Louisiana, USA},
- pages = {5900-5907},
+ pages = {5900--5907},
  url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16329/16155},
  publisher = {Association for the Advancement of Artificial Intelligence},
  address = {New York, NY, USA},
@@ -45,6 +45,57 @@
  event detection. We achieve the state-of-the-art performance on widely used datasets with both perfect 
  and predicted entity mentions.},
  keywords = {Event Detection; Information Extraction; Deep Learning; Graph Convolutional Neural Networks},
+}
+
+@inproceedings{MiyanishiEtAl:2018:AAAI2018,
+ author = {Miyanishi, Taiki and Hirayama, Jun-ichiro and Maekawa, Takuya and Kawanabe, Motoaki},
+ title = {Generating an Event Timeline about Daily Activities from a Semantic Concept Stream},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {142--150},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17197/15681},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {Recognizing activities of daily living (ADLs) in the real world is an important task for understanding 
+ everyday human life. However, even though our life events consist of chronological ADLs with the corresponding places 
+ and objects (e.g., drinking coffee in the living room after making coffee in the kitchen and walking to the living 
+ room), most existing works focus on predicting individual activity labels from sensor data. In this paper, we introduce 
+ a novel framework that produces an event timeline of ADLs in a home environment. The proposed method combines semantic 
+ concepts such as action, object, and place detected by sensors for generating stereotypical event sequences with the 
+ following three real-world properties. First, we use temporal interactions among concepts to remove objects and places 
+ unrelated to each action. Second, we use commonsense knowledge mined from a language resource to find a possible 
+ combination of concepts in the real world. Third, we use temporal variations of events to filter repetitive events, 
+ since our daily life changes over time. We use cross-place validation to evaluate our proposed method on a 
+ daily-activities dataset with manually labeled event descriptions. The empirical evaluation demonstrates that our 
+ method using real-world properties improves the performance of generating an event timeline over diverse environments.},
+ keywords = {Activity Recognition; Event Timeline Generation; Activities of Daily Living; Semantic Concept Stream},
+}
+
+@inproceedings{MartinEtAl:2018:AAAI2018,
+ author = {Martin, Lara J. and Ammanabrolu, Prithviraj and Wang, Xinyu and Hancock, William and Singh, Shruti and Harrison, Brent and Riedl, Mark O.},
+ title = {Event Representations for Automated Story Generation with Deep Neural Nets},
+ booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+ series = {AAAI '2018},
+ year = {2018},
+ location = {New Orleans, Louisiana, USA},
+ pages = {868-875},
+ url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/15769},
+ publisher = {Association for the Advancement of Artificial Intelligence},
+ address = {New York, NY, USA},
+ abstract = {Automated story generation is the problem of automatically selecting a sequence of events, 
+ actions, or words that can be told as a story. We seek to develop a system that can generate stories by 
+ learning everything it needs to know from textual story corpora. To date, recurrent neural networks that 
+ learn language models at character, word, or sentence levels have had little success generating coherent 
+ stories. We explore the question of event representations that provide a mid-level of abstraction between 
+ words and sentences in order to retain the semantic information of the original data while minimizing 
+ event sparsity. We present a technique for preprocessing textual story data into event sequences. We then 
+ present a technique for automated story generation whereby we decompose the problem into the generation 
+ of successive events (event2event) and the generation of natural language sentences from events (event2sentence). 
+ We give empirical results comparing different event representations and their effects on event successor 
+ generation and the translation of events to natural language.},
+ keywords = {automated story generation; event representations; recurrent neural networks},
 }
 
 @inproceedings{DingAndRiloff:2018:AAAI2018,
